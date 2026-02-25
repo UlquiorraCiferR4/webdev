@@ -1,11 +1,7 @@
 import { useState } from 'react'
-import './App.css'
-import {NavBar} from ''
 
 
 function App() {
-  return (
-  <Navbar />    
-  );  
+  return ;  
 }
 export default App
