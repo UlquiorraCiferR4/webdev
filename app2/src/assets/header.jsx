@@ -1,14 +1,15 @@
-import {  } from "./navBar.jsx";
+import { Nav } from "./navBar";
 import './header.css'
+
 export function Header() {
   return (
-    <nav className="navBar">
-      <div className="part1">
-        
-      </div>
-      <div className="part2">
-        Nav() 
-      </div>
-    </nav> 
-  ); 
+    <>
+      <header>
+        <div className="part1">
+          <h1 className="logo">XANDR</h1>
+        </div>
+        <Nav />
+        </header>
+    </>
+  );
 }
